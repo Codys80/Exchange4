@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Exchange4.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Label
+                x:Name="Head"
+                Text="Kurs NBP"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+            <DatePicker
+                x:Name="Date"/>
+            <Button
+                x:Name="EUR"
+                Text="Exhange" 
+                Clicked="EurClicked"
+                HorizontalOptions="Fill" />
+            <Picker x:Name="picker"
+                Title="Wybierz walute">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>USD</x:String>
+                        <x:String>CAD</x:String>
+                        <x:String>EUR</x:String>
+                        <x:String>GBP</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Label
+                x:Name="KursUsd"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

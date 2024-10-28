@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exchange4", "Exchange4.csproj", "{B6590DAB-7676-47D1-B495-5E5AEE38865D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6590DAB-7676-47D1-B495-5E5AEE38865D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6590DAB-7676-47D1-B495-5E5AEE38865D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6590DAB-7676-47D1-B495-5E5AEE38865D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B6590DAB-7676-47D1-B495-5E5AEE38865D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6590DAB-7676-47D1-B495-5E5AEE38865D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6590DAB-7676-47D1-B495-5E5AEE38865D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6409F79-2AE1-4A1F-A61C-ADBFE23DE38C}
+	EndGlobalSection
+EndGlobal
